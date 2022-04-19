@@ -169,7 +169,7 @@ export const Mint = (props) => {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(0 * mintCount);
-    let totalGasLimit = String(gasLimit * mintCount);
+    let totalGasLimit = String(gasLimit * 1);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
