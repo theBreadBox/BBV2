@@ -11,11 +11,11 @@ export const Navigation = (props) => {
 
           <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="https://discord.gg/n5XQrMBy"><span className="fab fa-discord"></span></a>
+                        <a className="nav-link" href="https://discord.gg/budbuddies"><span className="fab fa-discord"></span></a>
                    
                         <a className="nav-link px-2" href="https://twitter.com/budbuddiesNFT"><span className="fab fa-twitter"></span></a>
                     
-                        <a className="nav-link px-2" href="https://opensea.io/collection/budbuddiesV2"><span className="fa fa-ship"></span></a>
+                        <a className="nav-link px-2" href="https://opensea.io/collection/budbuddiesv2"><span className="fa fa-ship"></span></a>
                     </li>
                 </ul>
                    </div>
