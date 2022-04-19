@@ -1,0 +1,67 @@
+{
+  "Header": {
+    "paragraph": "",
+    "paragraph": "",
+    "icon":""
+  },
+  "About": {
+    "paragraph": " ",
+  
+    "Why2": [
+       
+    ]
+  },
+  "Gallery": [
+    
+  ],
+  "Services": [
+  
+  ],
+  "Testimonials": [
+    
+  ],
+  "Team": [
+    
+    {
+      "img": "img/team/Bread.png",
+      "name": "Bread",
+      "job": "Developer"
+    }
+  ],
+  "Contact": {
+    
+  },
+  "Features": [
+    { 
+      "icon": "",
+      "title": "artwork",
+      "text": "the opportunity to have an avatar that represents you from a world famous artist"
+
+    },
+    {
+      "icon": "",
+      "title": "commercial rights",
+      "text": "Be a true degen with full IP"
+    },
+    {
+      "icon": "",
+      "title": "irl events",
+      "text": "NFT LA"
+    },
+    {
+      "icon": "",
+      "title": "virtual events",
+      "text": "Helping get your art into the world of NFTs."
+    },
+    {
+      "icon": "",
+      "title": "exclusive merch",
+      "text": "Coming soon"
+    },
+    {
+      "icon": "",
+      "title": "degen DAO",
+      "text": "Helping victims of wallet attacks"
+    }
+  ]
+}
