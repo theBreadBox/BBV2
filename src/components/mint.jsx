@@ -425,6 +425,15 @@ return (
                       >
                         {claimingNft ? "BUSY" : "ogMint"}
                       </StyledButton>
+                       <s.TextDescription
+                          style={{
+                          textAlign: "center",
+                          fontSize: "14px",
+                          color: "var(--primary-text)",
+                                }}>
+            
+            ogMints are ONE per ADDRESS for holders of the original BudBuddies as of 4/20/2022. If you try to claim more than 1 the transaction will fail. 
+          </s.TextDescription>
                     </s.Container>
                   </>
                 )}
