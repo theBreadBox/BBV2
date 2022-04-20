@@ -168,7 +168,7 @@ export const Mint = (props) => {
   const ogMint = () => {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
-    let totalCostWei = String(cost * mintCount);
+    let totalCostWei = String(0 * mintCount);
     let totalGasLimit = String(gasLimit * mintCount);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
