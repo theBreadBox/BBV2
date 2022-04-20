@@ -281,7 +281,7 @@ return (
               }}
               >
 
-              {Number(data.totalSupply)} / {CONFIG.MAX_SUPPLY}
+              {Number(data.totalSupply + 160)} / {CONFIG.MAX_SUPPLY}
             
             </s.TextTitle>
 
