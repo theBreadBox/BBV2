@@ -437,6 +437,15 @@ return (
         </ResponsiveWrapper>
 
                     <s.SpacerMedium />
+               <s.TextDescription
+                          style={{
+                          textAlign: "center",
+                          fontSize: "14px",
+                          color: "var(--primary-text)",
+                                }}>
+                  ogMint is only ONE per Address of original BudBuddies holders as of snapshot taken 4/20/2022. 
+                  If you try to claim more than 1 the transaction will revert.
+          </s.TextDescription>
                                 
           <s.TextDescription
                           style={{
