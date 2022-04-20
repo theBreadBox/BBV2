@@ -124,7 +124,7 @@ export const Mint = (props) => {
     },
     NFT_NAME: "BudBuddiesV2",
     SYMBOL: "BUDSV2",
-    MAX_SUPPLY: 3840,
+    MAX_SUPPLY: 4000,
     WEI_COST: 24000000000000000,
     DISPLAY_COST: 0.24,
     GAS_LIMIT: 80000,
