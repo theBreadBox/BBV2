@@ -127,7 +127,7 @@ export const Mint = (props) => {
     MAX_SUPPLY: 4000,
     WEI_COST: 24000000000000000,
     DISPLAY_COST: 0.24,
-    GAS_LIMIT: 80000,
+    GAS_LIMIT: 150000,
     MARKETPLACE: "Opensea",
     MARKETPLACE_LINK: "https://opensea.io/collection/budbuddiesv2",
     SHOW_BACKGROUND: true,
