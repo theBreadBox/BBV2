@@ -127,7 +127,7 @@ export const Mint = (props) => {
     MAX_SUPPLY: 4000,
     WEI_COST: 24000000000000000,
     DISPLAY_COST: 0.24,
-    GAS_LIMIT: 100000,
+    GAS_LIMIT: 80000,
     MARKETPLACE: "Opensea",
     MARKETPLACE_LINK: "https://opensea.io/collection/budbuddiesv2",
     SHOW_BACKGROUND: true,
@@ -169,7 +169,7 @@ export const Mint = (props) => {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(0 * mintCount);
-    let totalGasLimit = String(gasLimit * mintCount);
+    let totalGasLimit = String(gasLimit * 2);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
